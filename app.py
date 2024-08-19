@@ -1,10 +1,15 @@
 import streamlit as st
 import pickle
 import numpy as np
+import pandas as pd
 
-# import the model
-pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
+# Load the model
+with open('pipe.pkl', 'rb') as file:
+    pipe = pickle.load(file)
+    
+# Load the feature names
+with open('df.pkl', 'rb') as file:
+    df = pickle.load(file)
 
 st.title("Laptop Predictor")
 
