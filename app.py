@@ -72,8 +72,6 @@ if st.button('Predict Price'):
     # Perform prediction
     prediction = pipe.predict(query)[0]
 
-    # If the prediction needs exponentiation (e.g., log-transformed), apply np.exp
-    # Check if the prediction is already in the correct format
     if isinstance(prediction, (int, float)):  # Check if prediction is numeric
         predicted_price = np.exp(prediction)  # Apply exponentiation if needed
         predicted_price_int = int(predicted_price)  # Convert to integer
