@@ -2,11 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-# from sklearn.ensemble import GradientBoostingClassifier
-    
-# # import the model
-# pipe = pickle.load(open('pipe.pkl','rb'))
-# df = pickle.load(open('df.pkl','rb'))
 
 # Load the model
 with open('pipe.pkl', 'rb') as file:
