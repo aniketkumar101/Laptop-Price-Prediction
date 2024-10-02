@@ -3,11 +3,12 @@
 
 This project is a machine learning-based web application that predicts laptop prices based on various specifications and user inputs. It leverages advanced preprocessing, model optimization strategies, and integrates multiple algorithms to deliver precise price predictions. The user interface is built using Streamlit and Render for an interactive experience.
 
-Technologies Used:
+## Technologies Used:
 - Python
+- Data Preprocessing & Feature Engineering
 - Machine Learning Algorithms
 - Streamlit (Web Interface)
-- Data Preprocessing & Feature Engineering
+- Render (deployment)
 
 ## Introduction
 The Laptop Price Prediction project is aimed at building a predictive model that can estimate the price of laptops based on their specifications. By analyzing historical data and laptop features like brand, processor, RAM, and storage, the model accurately predicts a laptop's price, making it a valuable tool for customers, retailers, and manufacturers.
